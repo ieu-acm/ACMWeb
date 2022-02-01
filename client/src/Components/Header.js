@@ -5,9 +5,7 @@ const Header = () => {
   return (
     <Navbar className='py-4 ' bg='primary'>
       <Container>
-        <Navbar.Brand className='text-white' href='#home'>
-          IEU ACM
-        </Navbar.Brand>
+        <Navbar.Brand className='text-white'>IEU ACM</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
