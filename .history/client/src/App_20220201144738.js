@@ -18,8 +18,6 @@ function App() {
         </Container>
       </main>
     </Router>
-    /* Selam */
-    
   )
 }
 
