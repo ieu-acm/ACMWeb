@@ -12,6 +12,7 @@ app.use(express.json())
 app.use("/users", userRouter);
 
 app.listen(5000, () => {
+    // connect to database
     mongoose.connect(process.env.DB_CONNECTION_STRING)
     .then(() => console.log('connected to db'))
     .catch((error) => console.log(error))

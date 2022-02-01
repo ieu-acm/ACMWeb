@@ -8,7 +8,7 @@ const router = express.Router();
 // localhost:5000/users 'a yapılan post isteği
 router.post("/signup", async (req, res)=>{
     try {
-        console.log(req.body)
+        //console.log(req.body)
         const { fullname, password, phoneNumber, email } = req.body;
         
         const userExists = await User.findOne({ email })
